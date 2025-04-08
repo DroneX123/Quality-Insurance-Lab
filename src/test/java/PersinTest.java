@@ -8,27 +8,27 @@ public class PersinTest {
     @Test
     void testGetFullName() {
 
-        Person person = new Person("SABRI", "BENMATOUK", 30);
+        Person person = new Person("LAHGUI", "RAYENE", 30);
 
 
         String fullName = person.getFullName();
 
 
-        assertEquals("SABRI BENMATOUK", fullName, "Le nom complet doit être 'SABRI BENMATOUK'");
+        assertEquals("LAHGUI RAYENE", fullName, "Le nom complet doit être 'LAHGUI RAYENE'");
     }
 
     @Test
     void testIsAdult() {
         // Cas d'une personne majeure
-        Person adult = new Person("RAMZI", "AISSANI", 20);
+        Person adult = new Person("LAHGUI", "RAYENE", 20);
         // Cas d'une personne mineure
-        Person minor = new Person("ADEM", "BELOUFI", 16);
+        Person minor = new Person("MAHMOUD", "MOULOUD", 16);
 
         // Vérifier que la méthode isAdult retourne true pour une personne majeure
-        assertTrue(adult.isAdult(), "RAMZI AISSANI doit être considéré comme adulte");
+        assertTrue(adult.isAdult(), "LAHGUI RAYENE doit être considéré comme adulte");
 
         // Vérifier que la méthode isAdult retourne false pour une personne mineure
-        assertFalse(minor.isAdult(), "ADEM BELOUFI ne doit pas être considéré comme adulte");
+        assertFalse(minor.isAdult(), "MAHMOUD MOULOUD ne doit pas être considéré comme adulte");
     }
 
 }
