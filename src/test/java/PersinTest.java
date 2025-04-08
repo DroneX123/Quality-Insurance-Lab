@@ -1,6 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.example.Person;
+import Exo1.Person;
 import org.junit.jupiter.api.Test;
 
 public class PersinTest {
