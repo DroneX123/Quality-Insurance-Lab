@@ -1,6 +1,9 @@
+package TP0test.Exo1;
+
+
 import static org.junit.jupiter.api.Assertions.*;
 
-import Exo1.Person;
+import TP0.Exo1.Person;
 import org.junit.jupiter.api.Test;
 
 public class PersinTest {

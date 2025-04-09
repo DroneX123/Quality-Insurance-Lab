@@ -1,4 +1,4 @@
-package Exo1;
+package TP0.Exo1;
 
 public class Person {
 
