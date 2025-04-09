@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf012da4-6558-47d9-96e3-a7e602c951f6" name="Changes" comment="test exercice 1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP0/Exo2/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP0/Exo3/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP0/Exo4/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP0/Exo5/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP0/exoBonus1/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP0/exoBonus2/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/Exo2/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/Exo3/FibonacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/Exo4/PrimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/Exo5/FactorialTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/TP0/exo0/BlackJack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/TP0/exo0/CountLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/TP0/exo0/LeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/TP0/exo0/RomanNumeral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/TP0/exo1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/TP0/exo2/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/exoBonus1/BankAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP0test/exoBonus2/MatrixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exo1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TP0/Exo1/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PersinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TP0test/Exo1/PersinTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="bf012da4-6558-47d9-96e3-a7e602c951f6" name="Changes" comment="TP0 tous les exercices V1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.BankAccountTest.executor": "Run",
+    "JUnit.BankAccountTest.testDepositBoundaryOverflow.executor": "Run",
     "JUnit.FactorialTest.executor": "Run",
     "JUnit.FibonacciTest.executor": "Run",
     "JUnit.MatrixTest.executor": "Run",
@@ -83,6 +61,7 @@
     "JUnit.StackTest.popPushTest.executor": "Run",
     "JUnit.StackTest.pushPopTest.executor": "Run",
     "JUnit.TP0 in TP1.executor": "Run",
+    "JUnit.TP0test in TP1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -241,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744144305943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TP0 tous les exercices V1">
+      <option name="closed" value="true" />
+      <created>1744202252156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744202252156</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test exercice 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test exercice 1" />
+    <MESSAGE value="TP0 tous les exercices V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP0 tous les exercices V1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
