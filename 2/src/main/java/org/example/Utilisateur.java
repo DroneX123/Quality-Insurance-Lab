@@ -4,12 +4,13 @@ public class Utilisateur {
     private String nom;
     private String email;
     private String prenon;
+    public int ID;
 
-    public Utilisateur(String nom, String prenon,String email) {
+    public Utilisateur(String nom, String prenon,String email,int ID) {
         this.nom = nom;
         this.email = email;
         this.prenon=prenon;
-
+       this.ID=ID;
     }
 
     public String getNom() {
