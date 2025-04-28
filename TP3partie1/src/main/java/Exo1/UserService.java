@@ -1,0 +1,17 @@
+package Exo1;
+
+import Exo1.User;
+import Exo1.UserRepository;
+
+public class UserService {
+    private final UserRepository userRepository;
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public User getUserById(long id) {
+        return userRepository.findUserById(id);
+    }
+
+}
