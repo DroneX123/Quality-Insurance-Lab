@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -40,6 +40,8 @@
     "JUnit.OrderControllerTest.executor": "Run",
     "JUnit.OrderServiceTest.TestOrderCreation.executor": "Run",
     "JUnit.OrderServiceTest.executor": "Run",
+    "JUnit.ProductServiceTest.executor": "Run",
+    "JUnit.ProductServiceTest.testProductApiFailure.executor": "Run",
     "JUnit.UserServiceTest.testGetUserById.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,11 +62,12 @@
       <recent name="Exo1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="EXO3" />
       <recent name="Exo2" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderControllerTest.TestDeaSave">
+  <component name="RunManager" selected="JUnit.ProductServiceTest">
     <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP3partie1" />
       <extension name="coverage">
@@ -112,32 +115,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP3partie1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exo2.*" />
+          <option name="PATTERN" value="EXO3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Exo2" />
-      <option name="MAIN_CLASS_NAME" value="Exo2.OrderServiceTest" />
+      <option name="PACKAGE_NAME" value="EXO3" />
+      <option name="MAIN_CLASS_NAME" value="EXO3.ProductServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceTest.TestOrderCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceTest.testProductApiFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP3partie1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exo2.*" />
+          <option name="PATTERN" value="EXO3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Exo2" />
-      <option name="MAIN_CLASS_NAME" value="Exo2.OrderServiceTest" />
-      <option name="METHOD_NAME" value="TestOrderCreation" />
+      <option name="PACKAGE_NAME" value="EXO3" />
+      <option name="MAIN_CLASS_NAME" value="EXO3.ProductServiceTest" />
+      <option name="METHOD_NAME" value="testProductApiFailure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductServiceTest" />
+        <item itemvalue="JUnit.ProductServiceTest.testProductApiFailure" />
         <item itemvalue="JUnit.OrderControllerTest.TestDeaSave" />
         <item itemvalue="JUnit.OrderControllerTest.TestOrderCreation" />
         <item itemvalue="JUnit.OrderControllerTest" />
-        <item itemvalue="JUnit.OrderServiceTest" />
-        <item itemvalue="JUnit.OrderServiceTest.TestOrderCreation" />
       </list>
     </recent_temporary>
   </component>

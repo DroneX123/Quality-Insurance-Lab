@@ -7,28 +7,27 @@ import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OrderControllerTest {
-
-@Test
+    @Test
     void TestOrderCreation(){
 
 
-    //orderController(orderService(orderDao))
+        //orderController(orderService(orderDao))
 
 
-    OrderService mockOrderService=mock(OrderService.class);
-    OrderController orderController = new OrderController(mockOrderService);
-    Order order =new Order("order1");
-    orderController.creatOrder(order);
-    //verify that orderService call create Order
-    verify(mockOrderService,times(1)).createOrder(order);
-
-
-
+        OrderService mockOrderService=mock(OrderService.class);
+        OrderController orderController = new OrderController(mockOrderService);
+        Order order =new Order("order1");
+        orderController.creatOrder(order);
+        //verify that orderService call create Order
+        verify(mockOrderService,times(1)).createOrder(order);
 
 
 
 
-}
+
+
+
+    }
     @Test
     void TestDeaSave() {
         // Arrange
@@ -44,4 +43,8 @@ class OrderControllerTest {
     }
 
 
+
+
 }
+
+
